@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+void main () {
+
+
+	int i,n,x,total;
+    total=0;
+    cout<<"Masukan jumlah bilangan : ";
+    cin>>n;
+    for (i=1 ; i<=n ; i++)
+       {
+    cout<<"Masukan angka ke "<<i<<" = ";
+    cin>>x;
+    total=total+x;
+       }
+       cout<<"Jumlah = "<<total;
+system("pause");
+}
