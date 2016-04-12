@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+void main () {
+	int C;
+	for (C=1; C<=10; C++) {
+		cout << C <<endl;
+	}
+	for (C=10; C>=1; C--) {
+		cout << C <<endl;
+	}
+system("pause");
+}
+
