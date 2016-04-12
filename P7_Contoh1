@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+void main () {
+	int C;
+	for (C=10; C>0; C--) {
+		cout << "Saya sangat menyukai c++" <<endl;
+	}
+system("pause");
+}
