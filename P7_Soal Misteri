@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+void main () {
+	int C;
+	for (C=0; C<=20;  C++)
+	{
+		C%2!=0;
+		cout << C;
+		C++;
+	}	
+system("pause");
+}
