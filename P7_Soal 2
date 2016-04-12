@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+void main () {
+	char c; 
+	for (char c='A'; c<='J'; c++) {
+		cout << c <<endl;
+	}
+	for (char c ='J'; c>='A'; c--) {
+		cout <<c<<endl;
+	}
+	
+system("pause");
+}
