@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main () {
+	int i;
+	int a;
+	int n;
+	int hasil;
+	hasil=1;
+	
+	cout << "Masukkan Nilai :";
+	cin >> a;
+
+	cout << "Masukkan Pangkat :";
+		cin >> n;
+	
+	for (i=1; i<=n; i++) 
+	{
+		hasil=hasil*a;
+	}
+	cout << "Hasil dari pangkat adalah :" <<hasil;
+	cout << endl;
+	system ("pause");
+}
+		
+
