@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main () {
+	int A;
+	for (A=0; A<27; A=A+5) {
+		cout << A<<",";
+	}
+	cout<<endl;
+	system ("pause");
+}
