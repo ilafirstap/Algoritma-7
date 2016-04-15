@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main () {
+	int bil;
+	int n;
+	long int hasil;
+
+	cout << "===Mencari Nilai Faktorial===";
+	cout << endl;
+	cout << "Masukkan Angka ";
+	cin>>n;
+
+	hasil=1;
+	for (bil=n; bil>1; bil--) {
+		hasil=hasil*bil;
+	}
+	cout << "Hasil Faktorial =" <<hasil<<"\n";
+	
+	system ("pause");
+}
